@@ -5,6 +5,7 @@ extends 'NetHack::Inventory';
 with 'TAEB::Role::Overload';
 
 use TAEB::Util qw/first assert refaddr/;
+use TAEB::World::Equipment;
 
 use constant equipment_class => 'TAEB::World::Equipment';
 
